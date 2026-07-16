@@ -1,14 +1,14 @@
 public class dosenMain {
       public static void main(String[] args) {
         
-        dosen dosen1 = new dosen();
+        dosen18 dosen1 = new dosen18();
         dosen1.idDosen = "DSN01";
         dosen1.nama = "Dr. Aris";
         dosen1.statusAktif = true;
         dosen1.tahunBergabung = 2015;
         dosen1.bidangKeahlian = "Sistem Informasi";
 
-        dosen dosen2 = new dosen("DSN02", "Budi, M.T.", false, 2020, "Jaringan Komputer");
+        dosen18 dosen2 = new dosen18("DSN02", "Budi, M.T.", false, 2020, "Jaringan Komputer");
 
         System.out.println("=== Data Dosen 1 ===");
         dosen1.tampilInformasi();

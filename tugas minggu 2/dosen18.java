@@ -1,15 +1,15 @@
 
-public class dosen {
+public class dosen18 {
     String idDosen;
     String nama;
     boolean statusAktif;
     int tahunBergabung;
     String bidangKeahlian;
 
-    public dosen() {
+    public dosen18() {
     }
 
-    public dosen(String idDosen, String nama, boolean statusAktif, int tahunBergabung, String bidangKeahlian) {
+    public dosen18(String idDosen, String nama, boolean statusAktif, int tahunBergabung, String bidangKeahlian) {
         this.idDosen = idDosen;
         this.nama = nama;
         this.statusAktif = statusAktif;
